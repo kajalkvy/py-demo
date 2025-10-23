@@ -61,5 +61,8 @@ elif "bag" > "apple" and "bag" > "cat":
 else:
     print("c")
 
-for number in range(1 , 10, 3):
-    print("Attempt", number, number * ".")
+for number in range(1 , 10):
+    if number % 2 == 0:
+        print(number, " is even")
+    else:
+        print(number, " is odd")
